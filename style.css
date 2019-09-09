@@ -10,7 +10,7 @@ body{
 
 p,ul, ol{
 	color: #382C20;
-  font-family: 'Crimson Text', serif;
+  font-family: 'BenchNine', sans-serif;
   list-style-type: none;
   margin-left: 100pt;
   margin-right: 100pt;
@@ -50,12 +50,14 @@ h2{
 	  border-bottom: 1px solid #FFEEDE;
 }
 
-a:link{
+a:link, a:visited{
   text-decoration: none;
+  color: #FFA273;
 }
 
+
 #nav a:link, #nav a:visited {
-	  display:block;
+	  display: block;
     color: #FFEEDE;
     background-color: #D1855F;
     font-weight: bold;
