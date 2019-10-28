@@ -5,7 +5,6 @@ body{
 }
 
 
-
 p,ul, ol{
 	color: #382C20;
   font-family: 'BenchNine', sans-serif;
@@ -131,6 +130,28 @@ a:link, a:visited{
 img {
 	border: none;
 }
+
+#nav ul li {
+    display: block;
+    border-top: 1px #79896d solid;
+}
+
+#nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+#nav ul {
+    display: none;
+}
 /* desktop */
 
 
@@ -223,8 +244,4 @@ img {
     grid-row: 3/4;
   }
 
-.cards li{
-  margin-left: 0;
 }
-
-  }
